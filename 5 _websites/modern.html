@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <A HREF="/code-samples/basicpopup/" onClick="return popup(this, 'notes')">my popup</A>
+</head>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Julius Sans One">
 <style>
-h1 {
+body {
     font-family: 'Julius Sans One';font-size: 50px;
 }
 </style>
 <body>
+    
 
-<h1>This page is modern.</h1>
+<p>We love cats here.</p>
+
+
+<SCRIPT TYPE="text/javascript"> function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, windowname, 'width=400,height=200,scrollbars=yes'); return false; } </SCRIPT>
+
 
 
 </body>
+
 </html>

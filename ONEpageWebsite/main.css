@@ -1,0 +1,46 @@
+body {
+    font-family: 'Julius Sans One';font-size: 50p;
+    text-align: center;
+    background-color:darkgrey;
+}
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #3a1b3c;
+    color: white;
+    font-size: 30px;
+    font-family:'Julius Sans One';font-size: 25px;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 50px;
+  }
+
+p {
+ text-align: center
+}
+
+footer {
+    display: block;
+    background-color:#2e7672 ;
+    color: white;
+  }
+
+  button {
+    border: none;
+    color: white;
+    background-color: #2e7672;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family:'Julius Sans One';
+    margin: 4px 2px;
+    cursor: pointer;
+  }
